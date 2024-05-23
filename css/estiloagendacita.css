@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    background-color: #FBFBFB;
+}
+
+@media screen and (min-width:1025px) {
+
+    .middle {
+        height: 700px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:681px) and (max-width:1024px) {
+    .middle {
+        height: 2500px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:0px) and (max-width:680px) {
+    .middle {
+        height: 4200px;
+        width: 100%;
+    }
+}

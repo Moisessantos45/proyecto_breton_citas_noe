@@ -1,0 +1,459 @@
+/*contiene estilos para la pagina principal*/
+
+@media screen and (min-width:1025px){
+   
+    .middle{
+        height:500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .serv_cont{
+        width:700px;
+        height:410px;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+    .servicios{
+        width:200px;
+        height:200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color:#fff;
+        background-color: #ebebeb;
+    }
+    .servicios h3 {
+        color:#000;
+        width:200px;
+        display: flex;
+        justify-content: center;
+    }
+    .servicios p{
+        color:#000;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .servicios img{
+        width:100px;
+        height:100px;
+    }
+    .timetable{
+        background-color: #181815;
+        width:300px;
+        height:410px;
+        display: flex;
+        justify-content:baseline;
+        flex-direction: column;
+        color: #fff;
+    }
+    .timetable h4{
+        margin:50px 0px 5px 30px;
+    }
+    .timetable h3{
+        margin:5px 0px 5px 30px;
+    }
+    .timetable p{
+        margin:10px 30px 5px 30px;
+    }
+    .tthrs span{
+        font-weight: bold;
+        float: right;
+    }
+    .timetable a{
+        width: 120px;
+        height: 50px;
+        border: 1px solid black;
+        margin:30px auto;
+        text-decoration: none;
+        color:#000;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .timetable a p{
+        margin:0px;
+        font-weight: bold;
+    }
+    .staff{
+        width:100%;
+        height:430px;
+    }
+    .staffTitle{
+        display: flex;
+        justify-content: center;
+    }
+    .staffBoxCont{
+        width:100%;
+        height:350px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .staffBox {
+        width: 200px;
+        height: 300px;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .staffImg img{
+        width:200px;
+        height:200px;
+    }
+    .staffInfo{
+        width:200px;
+        height:100px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .staffInfo h4{
+        margin-bottom: 10px;
+    }
+    .staffInfo img{
+        width:15px;
+        height:15px;
+        margin:0px 5px 0px 0px;
+    }    
+}
+
+@media screen and (min-width:681px) and (max-width:1024px) {
+    .middle {
+        height: 850px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .serv_cont {
+        width: 700px;
+        height: 410px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .servicios {
+        width: 180px;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #fff;
+        background-color: #ebebeb;
+    }
+
+    .servicios h3 {
+        color: #000;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .servicios p {
+        color: #000;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .servicios img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .timetable {
+        background-color: #181815;
+        width: 700px;
+        height: 300px;
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        color: #fff;
+    }
+
+    .timetable h4 {
+        margin: 30px auto 0px auto;
+    }
+
+    .timetable h3 {
+        margin: 0px auto;
+    }
+
+    .timetable p {
+        margin: 10px auto;
+    }
+    .tthrs{
+        width:450px;
+        height: 120px;
+        margin:0 auto;
+        display: flex;
+        justify-content:center;
+        align-items:flex-start;
+        flex-direction: column;
+    }
+    .tthrs p{
+        margin:5px auto;
+    }
+    .tthrs span {
+        font-weight: bold;
+        float: right;
+    }
+
+    .timetable a {
+        width: 120px;
+        height: 50px;
+        margin: 10px auto;
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .timetable a p {
+        margin: 0px;
+        font-weight: bold;
+    }
+
+    .staff {
+        width: 700px;
+        height: 350px;
+    }
+
+    .staffTitle {
+        display: flex;
+        justify-content: center;
+    }
+
+    .staffBoxCont {
+        width: 100%;
+        height: 260px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .staffBox {
+        width: 150px;
+        height: 250px;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .staffImg img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .staffInfo {
+        width: 150px;
+        height: 100px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .staffInfo h4 {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .staffInfo img {
+        width: 15px;
+        height: 15px;
+        margin: 0px 5px 0px 0px;
+    }
+    .staffInfo a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:680px) {
+    .middle {
+        height: 1280px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .serv_cont {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .servicios {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #fff;
+        background-color: #ebebeb;
+    }
+
+    .servicios h3 {
+        color: #000;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .servicios p {
+        color: #000;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .servicios img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .timetable {
+        background-color: #181815;
+        width: 100%;
+        height: 260px;
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        color: #fff;
+    }
+
+    .timetable h4 {
+        margin: 30px auto 0px auto;
+    }
+
+    .timetable h3 {
+        margin: 0px auto;
+    }
+
+    .timetable p {
+        margin: 10px auto;
+    }
+
+    .tthrs {
+        width: 450px;
+        height: 120px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .tthrs p {
+        margin: 5px auto;
+    }
+
+    .tthrs span {
+        font-weight: bold;
+        float: right;
+    }
+
+    .timetable a {
+        width: 120px;
+        height: 50px;
+        margin: 10px auto;
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+    }
+
+    .timetable a p {
+        margin: 0px;
+        font-weight: bold;
+    }
+
+    .staff {
+        width: 100%;
+        height: 720px;
+    }
+
+    .staffTitle {
+        display: flex;
+        justify-content: center;
+    }
+
+    .staffBoxCont {
+        width: 100%;
+        height: 650px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .staffBox {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .staffImg img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .staffInfo {
+        width: 200px;
+        height: 100px;
+        margin-left:20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .staffInfo h4 {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .staffInfo img {
+        width: 15px;
+        height: 15px;
+        margin-top:0px; 
+        margin-right: 5px;
+    }
+
+    .staffInfo a {
+        font-size: 14px;
+    }
+} 

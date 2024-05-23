@@ -1,0 +1,26 @@
+/*contiene estilos para la pagina que verá la secretaria*/
+
+@media screen and (min-width:1025px) {
+
+    .middle {
+        height: 500px;
+        width: 100%;
+        background-color: rgb(19, 165, 175);
+    }
+}
+
+@media screen and (min-width:681px) and (max-width:1024px) {
+    .middle {
+        height: 500px;
+        width: 100%;
+        background-color: rgb(19, 165, 175);
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:680px) {
+    .middle {
+        height: 500px;
+        width: 100%;
+        background-color: rgb(19, 165, 175);
+    }
+}

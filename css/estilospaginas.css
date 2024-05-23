@@ -1,0 +1,465 @@
+/*contiene estilos para el header, banner y footer*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    background-color: #FBFBFB;
+}
+
+.link_items{
+    text-decoration: none;
+}
+
+@media screen and (min-width:1025px) {
+    .contenedor {
+        width: 1170px;
+        margin: 0 auto;
+    }
+
+    .btnNombre {
+        width: 50%;
+        height: 70px;
+        background-image: url("../img/logo_wht.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+    }
+
+    .menuCont {
+        float: right;
+        width: 400px;
+        height: 60px;
+        margin: 0px;
+    }
+
+    .menuBtns {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Banner*/
+    .banner {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url("../img/banner0.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .smText {
+        height: 40px;
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .smText p {
+        color: #fff;
+    }
+
+    .lgText {
+        height: 100px;
+        width: 350px;
+        margin-left: 50px;
+    }
+
+    .lgText h1 {
+        color: #fff;
+    }
+
+    .ReqAppntmnt {
+        margin-top: 30px;
+        width: 200px;
+        height: 40px;
+        background-color: #425CBB;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+    }
+
+    .ReqAppntmnt a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /*Footer*/
+    .footer {
+        background-color: #272d2f;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #fff;
+        margin-top:10px;        
+    }
+
+    .fcol1 {
+        width: 250px;
+        height: 300px;
+    }
+
+    .f_logo {
+        width: 250px;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .f_logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .f_headOffice {
+        width: 250px;
+        height: 300px;
+    }
+
+    .f_headOffice a {
+        text-decoration: none;
+    }
+
+    .f_headOffice p span {
+        color: rgb(3, 91, 96);
+        font-weight: bold;
+    }
+
+    .f_headOffice #num {
+        color: rgb(201, 171, 0);
+        font-weight: bold;
+    }
+
+    .f_QL {
+        width: 250px;
+        height: 300px;
+    }
+
+    .f_QL a img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .smcont {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:681px) and (max-width:1024px) {
+    .contenedor {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    /*Header*/
+    .header {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btnNombre {
+        width: 200px;
+        height: 50px;
+        background-image: url("../img/logo_wht.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+    }
+
+    .menuBtns {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /*Banner*/
+    .banner {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url("../img/banner0.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .smText {
+        height: 40px;
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .smText p {
+        color: #fff;
+    }
+
+    .lgText {
+        height: 100px;
+        width: 350px;
+        margin-left: 50px;
+    }
+
+    .lgText h1 {
+        color: #fff;
+    }
+
+    .ReqAppntmnt {
+        margin-top: 30px;
+        width: 200px;
+        height: 40px;
+        background-color: #425CBB;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+    }
+
+    .ReqAppntmnt a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /*Footer*/
+    .footer {
+        background-color: #272d2f;
+        width: 700px;
+        height: 320px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .fcol1 {
+        width: 210px;
+        height: 250px;
+    }
+
+    .f_logo {
+        width: 210px;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .f_logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .f_headOffice {
+        width: 200px;
+        height: 250px;
+    }
+
+    .f_headOffice a {
+        text-decoration: none;
+    }
+
+    .f_headOffice p span {
+        color: rgb(3, 91, 96);
+        font-weight: bold;
+    }
+
+    .f_headOffice #num {
+        color: rgb(201, 171, 0);
+        font-weight: bold;
+    }
+
+    .f_QL {
+        width: 200px;
+        height: 250px;
+    }
+
+    .f_QL a img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .smcont {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:680px) {
+    .contenedor {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /*Header*/
+    .header {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btnNombre {
+        width: 200px;
+        height: 50px;
+        background-image: url("../img/logo_wht.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+    }
+
+    .menuBtns {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Banner*/
+    .banner {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url("../img/banner0.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .smText {
+        height: 40px;
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .smText p {
+        color: #fff;
+    }
+
+    .lgText {
+        height: 100px;
+        width: 350px;
+        margin-left: 50px;
+    }
+
+    .lgText h1 {
+        color: #fff;
+    }
+
+    .ReqAppntmnt {
+        margin-top: 30px;
+        width: 200px;
+        height: 40px;
+        background-color: #425CBB;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+    }
+
+    .ReqAppntmnt a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    /*Footer*/
+    .footer {
+        background-color: #272d2f;
+        width: 100%;
+        height: 520px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .fcol1 {
+        width: 90%;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .f_logo {
+        width: 210px;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .f_logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .f_headOffice {
+        width: 90%;
+        height: 250px;
+    }
+
+    .f_headOffice a {
+        text-decoration: none;
+    }
+
+    .f_headOffice p span {
+        color: rgb(3, 91, 96);
+        font-weight: bold;
+    }
+
+    .f_headOffice #num {
+        color: rgb(201, 171, 0);
+        font-weight: bold;
+    }
+
+    .f_QL {
+        width: 90%;
+        height: 250px;
+    }
+
+    .f_QL a img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .smcont {
+        display: flex;
+        justify-content: space-around;
+    }
+}
